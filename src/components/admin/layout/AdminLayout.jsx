@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { Search, Bell } from "lucide-react";
 import { AdminSidebar } from "./AdminSidebar";
-import { notificationsApi } from "../../../services/api";
+import { notificationsApi } from "../../../api/notification.api";
 import { useAuth } from "../../../context/AuthContext";
 
 const pageNames = {

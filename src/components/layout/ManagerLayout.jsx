@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import { ManagerSidebar } from './ManagerSidebar';
 import { ManagerNavbar } from './ManagerNavbar';
-import { notificationsApi } from '../../services/api';
+import { notificationsApi } from '../../api/notification.api';
 
 export const ManagerLayout = () => {
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);

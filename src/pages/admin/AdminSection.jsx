@@ -11,11 +11,11 @@ import {
 } from "lucide-react";
 import {
   activitiesApi,
-  notificationsApi,
   projectsApi,
   tasksApi,
   teamApi,
 } from "../../services/api";
+import { notificationsApi } from "../../api/notification.api";
 import { useAuth } from "../../context/AuthContext";
 import { CreateProjectModal } from "../../components/modals/CreateProjectModal";
 

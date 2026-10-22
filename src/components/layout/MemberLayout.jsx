@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Sidebar } from './Sidebar';
 import { Navbar } from './Navbar';
-import { notificationsApi } from '../../services/api';
+import { notificationsApi } from '../../api/notification.api';
 
 export const MemberLayout = () => {
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);

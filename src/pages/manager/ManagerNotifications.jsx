@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { CheckCheck } from "lucide-react";
-import { notificationsApi } from "../../services/api";
+import { notificationsApi } from "../../api/notification.api";
 import { ManagerNotificationList } from "./components/ManagerNotificationList";
 
 export const ManagerNotifications = () => {
